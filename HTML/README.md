@@ -11,7 +11,7 @@ This HTML document contains a Day of Week Calculator that calculates the day of 
 - Additional information about the calculation process.
 
 ## How to Use
-1. Download [html](https://github.com/itskuldipsingh/Day-of-week-calculator/blob/main/HTML/DayOfWeekCalculator.html) code and run in any web browser
+1. Download [html](https://github.com/itskuldipsingh/Date-to-Day-of-week-calculator/blob/main/HTML/Date_to_Day_Of_Week_Calculator.html) code and run in any web browser
 2. Enter the year, month, and date in the respective input fields.
 3. Click the "Calculate Day of the Week" button to see the result.
 
