@@ -2,7 +2,7 @@
 This Python script calculates the day of the week for a given date.
 
 ## How to Use
-1. Run the [script](https://github.com/itskuldipsingh/Day-of-week-calculator/blob/main/Python/WeekOfDayCalculator.py) in a Python environment.
+1. Run the [script](https://github.com/itskuldipsingh/Date-to-Day-of-week-calculator/blob/main/Python/WeekOfDayCalculator.py) in a Python environment.
 2. Enter the year, month, and date when prompted.
 3. The script will output the corresponding day of the week for the entered date.
 
