@@ -62,10 +62,3 @@ elif day_of_week == 6:
     print(f"The day of the week for {year}-{month:02d}-{date:02d} is Friday.")
 elif day_of_week == 0:
     print(f"The day of the week for {year}-{month:02d}-{date:02d} is Saturday.")
-
-
-
-
-
-
-
