@@ -15,7 +15,7 @@ The script ensures valid input for the year (between 0 and 9999), month (between
   - Determining leap year status.
   - Calculating the century code.
   - Assigning month codes based on leap year status.
-  - Applying Zeller's Congruence formula to find the day of the week.
+  - To exit use ctrl+c.
 
 ## Example Output
 The script provides output in the format: "The day of the week for YYYY-MM-DD is [Day]."
@@ -24,9 +24,8 @@ The script provides output in the format: "The day of the week for YYYY-MM-DD is
 Here is an example of how the script works:
 ```python
 # Sample Run
-Enter year: 2022
-Enter month: 2
-Enter date: 22
-The day of the week for 2022-02-22 is Tuesday.
+Enter year or ctrl+c to exit:1900
+Enter month or ctrl+c to exit::2
+Enter date or ctrl+c to exit::28
+The day of the week for 1900-02-28 is Wednesday.
 ```
-Feel free to use, modify, and enhance the script as needed. If you encounter any issues or have suggestions, please let us know.
