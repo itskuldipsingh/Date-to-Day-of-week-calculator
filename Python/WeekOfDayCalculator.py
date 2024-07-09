@@ -1,6 +1,6 @@
 while True:
     while True:
-        year = int(input("Enter year or ctrl+c to exit:"))
+        year = int(input("Enter year or ctrl+c to exit: "))
         if 0 <= year <= 9999:
             break
         else:
@@ -9,14 +9,14 @@ while True:
     leap_year = (year % 4 == 0 and year % 100 != 0) or year % 400 == 0
 
     while True:
-        month = int(input("Enter month or ctrl+c to exit::"))
+        month = int(input("Enter month or ctrl+c to exit: "))
         if 1 <= month <= 12:
             break
         else:
             print("Invalid month. Please enter a correct month.")
 
     while True:
-        date = int(input("Enter date or ctrl+c to exit::"))
+        date = int(input("Enter date or ctrl+c to exit: "))
         if (
             (leap_year and month == 2 and 0 <= date <= 29)
             or (not leap_year and month == 2 and 0 <= date <= 28)
@@ -58,7 +58,7 @@ while True:
     elif day_of_week == 4:
         print(f"The day of the week for {year}-{month:02d}-{date:02d} is Wednesday.")
     elif day_of_week == 5:
-        print(f"The day of the week for {year}-{month:02d}-{date:02d} is Thrusday.")
+        print(f"The day of the week for {year}-{month:02d}-{date:02d} is Thursday.")
     elif day_of_week == 6:
         print(f"The day of the week for {year}-{month:02d}-{date:02d} is Friday.")
     elif day_of_week == 0:
